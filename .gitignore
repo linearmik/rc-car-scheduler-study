@@ -1,0 +1,36 @@
+# === 데이터셋 (용량·개인정보 — 저장소 미포함) ===
+merged/
+linear_rc/
+linear0827/
+drive_results/
+*.zip
+
+# === 학습 결과·모델 가중치 (재생성 가능) ===
+results_14k/
+results_22k/
+results_14k_oldprep/
+results_22k_oldprep/
+results_full_oldprep/
+models_rc/
+models_rc2/
+*.pt
+*.pth
+*.pickle
+
+# === 논문 원고 (미공개) ===
+*.pages
+*.docx
+*.pdf
+paper_latex/
+paper_KIPS_latex.zip
+
+# === 로그 ===
+*.log
+
+# === 파이썬 / OS 부산물 ===
+__pycache__/
+*.py[cod]
+*.bak
+.DS_Store
+.venv/
+venv/
